@@ -132,10 +132,10 @@ You are free to use any approach: hand-tuned heuristics, potential fields, A* pa
 
 | Rule | Detail |
 |------|--------|
-| ✅ Modify | `skye_controller.py` only |
-| ❌ Do not modify | `skye_env.py`, `config.py` |
-| ❌ Do not | Hard-code target coordinates or exploit rendering internals |
-| ✅ Allowed | Any Python library (`numpy`, `scipy`, etc.) |
+| Modify | `skye_controller.py` only |
+| Do not modify | `skye_env.py`, `config.py` |
+| Do not | Hard-code target coordinates or exploit rendering internals |
+| Allowed | Any Python library (`numpy`, `scipy`, etc.) |
 
 ---
 

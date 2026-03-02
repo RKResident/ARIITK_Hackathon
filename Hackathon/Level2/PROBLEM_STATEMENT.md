@@ -138,9 +138,9 @@ python simulator.py --c
 
 | Outcome | Score |
 |---------|-------|
-| Landed within `0.35 m` of center | ✅ **SUCCESS** |
-| Landed outside `0.35 m` | ❌ **FAILED** |
-| Final error `< 0.1 m` | 🏆 **Precision Bonus** |
+| Landed within `0.35 m` of center | **SUCCESS** |
+| Landed outside `0.35 m` | **FAILED** |
+| Final error `< 0.1 m` | **Precision Bonus** |
 
 The simulation prints your final distance from the platform center at touchdown.
 
@@ -165,4 +165,4 @@ The simulation prints your final distance from the platform center at touchdown.
 
 ---
 
-Good luck. The platform won't wait. 🛬
+

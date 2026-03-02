@@ -43,7 +43,7 @@ python simulator.py --c      # Your controller (reads commands.txt)
 - Submit your final `skye_controller.py` with a short write-up explaining your approach
 
 ### Level 2
-- Write a controller (Python or C) that reads `camera_pixels.txt` and writes velocity commands to `commands.txt`
+- Write a controller (Python or C++) that reads `camera_pixels.txt` and writes velocity commands to `commands.txt`
 - Submit your controller source file with a short write-up explaining your approach
 
 ---

@@ -47,10 +47,9 @@ def compute_velocity(sensors):
         # STATE 2: THE PURSUIT
         # ==========================================================
         # You found the target! 
-        # However, the target's max speed is 5.5, and yours is 4.0.
-        # If you aim directly at its current position, it will outrun you.
+        # However, the target's max speed is 2.5, and yours is 3.5
         # You must anticipate its trajectory, cut corners around obstacles,
-        # and stay within the 60px tracking radius to maximize your score.
+        # and stay within the 70px tracking radius to maximize your score.
         
         tx, ty = sensors["target_pos"]
         dx, dy = tx - px, ty - py

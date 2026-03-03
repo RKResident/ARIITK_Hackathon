@@ -142,15 +142,6 @@ Teams must submit a single GitHub repository containing all of the following:
 |---|------|-------------|
 | 1 | `skye_controller.py` | Your implementation of `compute_velocity(sensors)`. This is the only file you modify. Must run without errors on the unmodified `skye_env.py` and `config.py` provided. |
 | 2 | `score_proof.png` | A screenshot of your final simulation run showing the score on screen. Taken at mission end (timestep 3000 or crash). |
-| 3 | `report.pdf` | Maximum 2 pages. Must include: your exploration strategy, your pursuit strategy, how you handle SKYE-X going invisible, and one diagram or flowchart of your controller logic. |
-
-### `report.pdf` Must Answer These Questions
-
-- How does your drone explore the arena without crashing into obstacles?
-- What does your drone do the moment `target_visible` becomes `True`?
-- What does your drone do when `target_visible` drops back to `False` mid-chase?
-- How do you use the 36 LiDAR rays to avoid walls?
-- What was your highest score and at what timestep did you discover SKYE-X?
 
 ---
 

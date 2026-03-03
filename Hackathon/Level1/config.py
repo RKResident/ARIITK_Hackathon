@@ -1,6 +1,6 @@
 """
 Operation SKYE-X Configuration
-Edit these values to tune speeds, distances, and mission duration.
+Edit MAX_TIMESTEPS to adjust mission duration, and NUM_OBSTACLES_DEFAULT for obstacle density.
 """
 
 # --- Arena ---
@@ -10,8 +10,8 @@ FPS = 60
 
 # --- Speeds ---
 MAX_PLAYER_SPEED = 3.5
-MAX_TARGET_SPEED = 3.5
-MAX_TARGET_SPEED_FLEE = 2.0  # Target speed when fleeing (lower = player can catch up)
+MAX_TARGET_SPEED = 2.5 # Target's normal max speed
+MAX_TARGET_SPEED_FLEE = 2.5  # Target speed when fleeing
 
 # --- Distances & Radii ---
 VISIBILITY_RADIUS = 150   # Lidar/Fog of War radius

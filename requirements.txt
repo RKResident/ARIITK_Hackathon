@@ -1,0 +1,14 @@
+# Aerial Robotics IITK Hackathon 2026 — Dependencies
+# ===================================================
+
+# Level 1 & Level 2 — Pygame-based simulators
+pygame
+
+# Level 3 & Bonus — Computer Vision
+opencv-contrib-python
+numpy
+
+# Bonus Level — Simulator communication & control
+requests
+simple-pid
+pyautogui

@@ -96,18 +96,6 @@ You can send any combination of these in a single JSON payload:
 { "pitch": -0.3, "roll": 0.1, "throttle": 0.8 }
 ```
 
-### C. Vision System (Camera Feed)
-
-The simulator exposes a **downward-facing camera feed** (MJPEG stream) accessible at:
-
-```
-http://localhost:8080/video
-```
-
-Your script must read this feed, run **OpenCV ArUco detection** on each frame, and estimate the pixel distance from the center of the camera frame to the center of the marker.
-
-> **ArUco Dictionary:** `DICT_4X4_50` — use `cv2.aruco.DICT_4X4_50` in OpenCV.
-
 ---
 
 ## 4. Your Task — The Control Loop
@@ -198,10 +186,4 @@ python auto_land.py
 ```
 
 > The simulator window will show the drone responding to your commands in real-time.
-
-### Requirements
-```bash
-pip install opencv-contrib-python numpy requests simple-pid pyautogui
-```
-
 ---

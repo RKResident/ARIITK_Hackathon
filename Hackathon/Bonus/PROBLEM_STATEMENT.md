@@ -107,16 +107,16 @@ Write a Python script `auto_land.py` that implements a continuous feedback loop 
 ┌─────────────────────────────────────────────────────────┐
 │                    CONTROL LOOP                         │
 │                                                         │
-│  1. READ     ← Telemetry from port 8081                │
-│              ← Camera frame from /video                 │
+│  1. READ     ← Telemetry from port 8081                 │
+│              ← Camera frame by capturing window         │
 │                                                         │
-│  2. PROCESS  → Detect ArUco marker (OpenCV)            │
+│  2. PROCESS  → Detect ArUco marker (OpenCV)             │
 │              → Calculate pixel error from frame center  │
 │                                                         │
 │  3. COMPUTE  → PID Controller converts visual error     │
-│                into smooth flight commands               │
+│                into smooth flight commands              │
 │                                                         │
-│  4. ACT      → Send pitch, roll, throttle, yaw to 8080 │
+│  4. ACT      → Send pitch, roll, throttle, yaw to 8080  │
 │                                                         │
 │  └── Repeat ──────────────────────────────────────────┘ │
 └─────────────────────────────────────────────────────────┘

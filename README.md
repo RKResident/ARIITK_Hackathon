@@ -35,14 +35,43 @@ pip install -r requirements.txt
 
 ## Submission Guidelines
 
+### General Guidelines
+- All submissions must be combined and submitted in a **.zip** format.
+- The official submission form will be floated soon.
+- Please read all the Problem Statements (PS) carefully and ensure you understand the deliverables for each level before submitting.
+
+### Expected Folder Structure
+Your final submission ZIP file should extract strictly to the following folder structure:
+```text
+Submission_TeamName/
+├── Level1/
+│   ├── skye_controller.py
+│   ├── score_proof.png
+│   └── writeup.pdf (or .md)
+├── Level2/
+│   └── solver.py
+├── Level3/
+│   ├── generator.py
+│   ├── hybrid_marker.png
+│   ├── viewer.py
+│   ├── visual_check.py
+│   ├── drone_view_2.0m.png
+│   ├── drone_view_30.0m.png
+│   └── report.pdf
+└── Bonus/
+    ├── auto_land.py
+    ├── landing_video.mp4
+    └── report.pdf
+```
+
+
 ### Level 1
 - Only modify `skye_controller.py` — **do not modify `skye_env.py`**
 - You **may** adjust `config.py` parameters (e.g. `MAX_TIMESTEPS`) for tuning/testing
-- Submit your final `skye_controller.py` with a short write-up explaining your approach
+- Submit your final `skye_controller.py`, `score_proof.png`, and a short write-up explaining your approach
 
 ### Level 2
-- Write a controller (Python or C) that reads `camera_pixels.txt` and writes velocity commands to `commands.txt`
-- Submit your controller source file with a short write-up explaining your approach
+-Submit **`solver.py`** only. Must run with the original unmodified `simulator_level2.py` in the same directory:
 
 ### Level 3
 - Submit a GitHub repository with: `generator.py`, `hybrid_marker.png`, `viewer.py`, `visual_check.py`, `drone_view_2.0m.png`, `drone_view_30.0m.png`, and `report.pdf`
